@@ -34,7 +34,7 @@ exports.handler = async (event) => {
                 content: [
                     {
                         type: 'text',
-                        text: `請分析以下電路圖並給出專業評論。學生的說明：${description}`
+                        text: `Please analyze the following circuit diagram and provide a professional commentary. Student's explanation：${description}`
                     },
                     {
                         type: 'image_url',
