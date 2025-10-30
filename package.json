@@ -1,0 +1,15 @@
+{
+  "name": "circuit-analyzer",
+  "version": "1.0.0",
+  "description": "電路圖分析系統",
+  "main": "index.html",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "openai": "^4.67.3"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
