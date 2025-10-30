@@ -34,7 +34,7 @@ exports.handler = async (event) => {
                 content: [
                     {
                         type: 'text',
-                        text: `Please analyze the following circuit diagram and provide a professional commentary. Student's explanation：${description}`
+                        text: `Please analyze the following circuit diagram and provide a professional commentary in English. Student's explanation：${description}`
                     },
                     {
                         type: 'image_url',
